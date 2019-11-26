@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/msg_pop_bg">
+
+
+    <com.honeywell.lib.widgets.MaxHeightListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/list_divider_margin"
+        android:listSelector="@color/transparent"
+        android:scrollbars="none" />
+
+</FrameLayout>

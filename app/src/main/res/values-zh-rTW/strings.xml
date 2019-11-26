@@ -1,0 +1,566 @@
+<resources>
+    <string name="app_name">云上家居</string>
+
+    <string name="dict">dict</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Error message-->
+    <string name="error_password_wrong">密碼錯誤</string>
+    <string name="error_already_authed">您已經登錄</string>
+    <string name="error_need_auth">需要验证</string>
+    <string name="error_no_the_loop">此設備不存在</string>
+    <string name="error_wrong_operation">错误操作</string>
+    <string name="error_loop_exited">此设备已添加</string>
+    <string name="error_operation_failed">操作失败</string>
+    <string name="error_request_timeout">请求超时</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="error_invalid_param">參數錯誤</string>
+    <string name="error_no_mcc_card">没有MCC卡</string>
+    <string name="error_loop_has_been_ref">回路已经被引用</string>
+    <string name="error_reach_limit">已經達到上限</string>
+    <string name="error_room_not_add_this_device">此房間沒有這種類型的設備</string>
+    <string name="error_zone_abnormal">防区异常</string>
+    <string name="error_wrong_password">密码错误</string>
+    <string name="error_can_not_find_scenario">找不到此場景</string>
+    <string name="error_upgrade_unknown_error">升級，未知錯誤</string>
+    <string name="error_upgrade_file_error">升級，檔案錯誤</string>
+    <string name="error_upgrade_flash_error">升級，快取記憶體錯誤</string>
+    <string name="error_upgrade_hardware_error">升級，硬體錯誤</string>
+    <string name="error_upgrade_no_new_version">已是最新版本</string>
+    <string name="error_upgrade_doing">正在升级</string>
+    <string name="error_upgrade_done_reboot">升级重启</string>
+    <string name="error_ipc_reach_max_support">超過支援數量</string>
+    <string name="error_ipc_play_error">播放錯誤</string>
+    <string name="error_room_no_this_type_device">該房間沒有此類型設備</string>
+    <string name="error_time_out">請檢查網路</string>
+    <string name="error_offline">设备不在线</string>
+
+    <string name="error_get_forest">请求今日天气预报错误</string>
+    <string name="error_get_cube_weather">请求CUBE天气错误</string>
+
+    <string name="error_invalid_message_formart">数据格式错误</string>
+    <string name="error_invalid_language">语言错误</string>
+    <string name="error_invalid_phone_number">手机号无效</string>
+    <string name="error_invalid_email">邮箱无效</string>
+    <string name="error_vcode_too_frequent">验证码请求过于频繁</string>
+    <string name="error_vcode_failed">验证码请求失败</string>
+    <string name="error_invalid_name">用户名无效</string>
+    <string name="error_invalid_pwd">密码无效</string>
+    <string name="error_phone_registered">手机号已注册</string>
+    <string name="error_invalid_phone_vcode">手机验证码无效</string>
+    <string name="error_email_registered">邮箱已注册</string>
+    <string name="error_invali_email_vcode">邮箱验证码无效</string>
+    <string name="error_login_failed">登录失败</string>
+    <string name="error_invali_phone_uuid">手机唯一识别码无效</string>
+    <string name="error_invali_phone_type">手机类型无效</string>
+    <string name="error_invali_push_vendor">推送码无效</string>
+    <string name="error_invali_push_id">推送ID无效</string>
+    <string name="error_invali_pwd_wrong">密码错误</string>
+    <string name="error_bind_pwd_error">密码错误</string>
+    <string name="error_can_not_bind">设备已被其他用户绑定！</string>
+
+    <!--Alarm message-->
+    <string name="alarm_unknown">未定義錯誤</string>
+    <string name="alarm_medicalaid">醫療救護</string>
+    <string name="alarm_emergency">緊急求救</string>
+    <string name="alarm_fire">火災報警</string>
+    <string name="alarm_panic">挾持</string>
+    <string name="alarm_code_intrusion">小偷入侵</string>
+    <string name="alarm_code_temper">撬鎖</string>
+    <string name="alarm_code_pwdwrong">密碼錯誤</string>
+    <string name="alarm_code_lowbattery">低電量</string>
+    <string name="alarm_code_dooropen">門未關</string>
+    <string name="alarm_code_zonetrouble">設備故障</string>
+    <string name="alarm_code_gas">瓦斯洩漏</string>
+    <string name="alarm_code_pm2p5">PM 2.5超標</string>
+
+    <string name="zone_alarm_fire">火警</string>
+    <string name="zone_alarm_help">緊急求救</string>
+    <string name="zone_alarm_gas">瓦斯洩漏</string>
+    <string name="zone_alarm_thief">小偷入侵</string>
+    <string name="zone_alarm_emergency">緊急情況</string>
+    <!-- Websocket close msg-->
+    <string name="websocket_close_normal">正常退出</string>
+    <string name="websocket_close_cannot_connect">无法连接</string>
+    <string name="websocket_close_connect_lost">连接丢失</string>
+    <string name="websocket_close_protocol_error">协议错误</string>
+    <string name="websocket_close_internal_error">内部错误</string>
+    <string name="websocket_close_server_error">服务器错误</string>
+    <string name="websocket_close_reconnect">重新连接</string>
+    <string name="websockt_response_timeout">请求响应超时</string>
+
+    <!-- notification-->
+    <string name="notification">通知</string>
+    <string name="responce_success">操作成功</string>
+    <string name="responce_failed">操作失败</string>
+
+    <!-- H157925 Slide menu-->
+    <string name="slide_menu_login_name">未登陆</string>
+    <string name="slide_menu_nav_rules">Rules</string>
+    <string name="slide_menu_nav_schedules">Schedules</string>
+    <string name="slide_menu_nav_settings">Settings</string>
+
+    <!-- H157925 main tabbar-->
+    <string name="main_tabbar_text_home">首頁</string>
+    <string name="main_tabbar_text_scenario">場景</string>
+    <string name="main_tabbar_text_device">設備</string>
+    <string name="main_tabbar_text_room">房間</string>
+
+    <!-- main title-->
+    <string name="main_header_text_home">室外</string>
+    <string name="main_header_text_scenario">場景</string>
+    <string name="main_header_text_device">設備</string>
+    <string name="main_header_text_room">房間</string>
+
+
+    <!-- H157925 scenario tab-->
+    <string name="scenario_home">在家</string>
+    <string name="scenario_away">離家</string>
+    <string name="scenario_arm">全佈防</string>
+    <string name="scenario_disarm">全撤防</string>
+    <string name="scenario_add_not_empty">添加场景不能为空</string>
+
+    <!-- H157925 Login-->
+    <string name="login_title">登錄</string>
+    <string name="logout_title">退出</string>
+
+    <!--menu-->
+    <string name="menu_rule">規則</string>
+    <string name="menu_schedule">計畫</string>
+    <string name="menu_module">模組</string>
+    <string name="menu_device">設備</string>
+    <string name="menu_about">关于</string>
+
+    <string name="scenario_tip">目前場景:</string>
+
+    <string name="device_type_light">燈光</string>
+    <string name="device_type_curtain">窗簾</string>
+    <string name="device_type_relay">開關</string>
+    <string name="device_type_zone">防區</string>
+    <string name="device_type_ip_camera">IP視訊對講機</string>
+    <string name="device_type_air_conditioner">溫度控制</string>
+    <string name="device_type_backaudio">音樂播放</string>
+    <string name="device_type_purifier">机顶盒</string>
+    <string name="device_type_ir_stb">機上盒</string>
+    <string name="device_type_ir_customize">自訂紅外線裝置</string>
+    <string name="device_type_ir_ac">紅外空調</string>
+    <string name="device_type_ir_television">電視</string>
+    <string name="device_type_ir_dvd">DVD</string>
+    <string name="device_type_ventilation">空氣凈化器</string>
+    <string name="device_type_call_elevator">呼叫电梯</string>
+
+
+    <string name="username">用戶名稱</string>
+    <string name="password">密碼</string>
+    <string name="phone_number">电话号码</string>
+    <string name="password_tip">&#062;&#061;5个字符</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="no_account">没有账号?</string>
+    <string name="create_account">创建</string>
+    <string name="user_login">用户登录</string>
+    <string name="guest_login">访客登录</string>
+    <string name="offline">离线</string>
+
+    <string name="logout_tip">您确定要登出吗?</string>
+    <string name="title_activity_cube_basic">CubeBasicActivity</string>
+
+    <string name="add">添加</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="complete">完成</string>
+
+    <string name="edit_scenario">编辑场景</string>
+    <string name="edit_scenario_name">场景名称</string>
+    <string name="edit_scenario_select_icon">选择场景图标</string>
+    <string name="edit_scenario_setting">设置</string>
+    <string name="edit_scenario_device">设备</string>
+    <string name="edit_scenario_zone">防区</string>
+    <string name="edit_scenario_use_zone">启用防区</string>
+    <string name="edit_scenario_select_device">选择设备</string>
+    <string name="edit_scenario_name_hint">&#060;&#061;20字符</string>
+    <string name="edit_scenario_all">全部</string>
+
+
+    <string name="register_title">注册</string>
+    <string name="country">国家</string>
+    <string name="chinese_countrCode">中国 +86</string>
+
+    <string name="telephone_title">电话</string>
+    <string name="telephone_num">电话号码</string>
+    <string name="next_step">下一步</string>
+    <string name="dialog_title">请确认电话号码</string>
+    <string name="dialog_content">我们将发送一个验证码到这个手机号</string>
+    <string name="dialog_content_phone">153XXXX0000</string>
+
+    <string name="select_country_title">选择国家</string>
+
+    <string name="validate">验证</string>
+    <string name="validate_code">验证码</string>
+    <string name="retry">重试</string>
+
+    <string name="forgot_title">忘记密码?</string>
+
+    <string name="room_master_bedroom">主臥室</string>
+    <string name="room_second_bedroom">次臥室</string>
+    <string name="room_guest_bedroom">客房</string>
+    <string name="room_master_bathroom">主浴室</string>
+    <string name="room_second_bathroom">次浴室</string>
+    <string name="room_dining_room">餐廳</string>
+    <string name="room_kitchen">廚房</string>
+    <string name="room_living_room">客廳</string>
+    <string name="room_name_tip">房间名称</string>
+    <string name="room_icon_select">选择房间</string>
+
+    <string name="name">名称</string>
+    <string name="room">房间</string>
+    <string name="more_info">更多信息</string>
+    <string name="configure">配置</string>
+
+    <string name="operation_success_tip">操作成功</string>
+    <string name="operation_failed_tip">操作失败</string>
+    <string name="scenario_need_name_tip">请先输入场景名称</string>
+    <string name="scenario_need_device_zone_tip">请先为场景添加设备和防区</string>
+
+    <string name="room_need_name_tip">请先输入房间名称</string>
+    <!--account setting-->
+    <string name="account_setting_title">账号设置</string>
+    <string name="cube_setting_title">CUBE设置</string>
+    <string name="cube_info">CUBE信息</string>
+    <string name="cube_setting_name">设置名称</string>
+    <string name="cube_change_log_pwd">修改登录密码</string>
+    <string name="cube_change_safety_pwd">修改安防密码</string>
+    <string name="cube_setting_city">设置城市</string>
+    <string name="cube_backup_history">备份历史</string>
+    <string name="cube_exchange">切换CUBE</string>
+    <string name="cube_property_net">物业网络</string>
+    <string name="link_cubee">连接</string>
+    <string name="account_unlogin">未登陆</string>
+
+    <!-- Account setting-->
+    <string name="account_setting_phone">手机号码</string>
+    <string name="account_setting_set_alias_name">设置名称</string>
+    <string name="account_setting_change_password">修改密码</string>
+    <string name="account_setting_change_cube">切换CUBE</string>
+    <string name="account_setting_cube_setting">Cube设置</string>
+
+    <!-- cube setting -->
+    <string name="cube_setting_portrait">头像</string>
+    <string name="cube_setting_about_cube">关于 CUBE</string>
+    <string name="cube_setting_set_alias_name">设置名称</string>
+    <string name="cube_setting_change_login_password">修改登陆密码</string>
+    <string name="cube_setting_change_security_password">修改安防密码</string>
+    <string name="cube_setting_ethernet">物业网络</string>
+    <string name="cube_setting_voice_control">语音识别</string>
+    <string name="cube_setting_replace_cube">替换CUBE</string>
+    <string name="cube_setting_replace_cube_success">替换CUBE成功</string>
+    <string name="cube_setting_set_location">设置城市</string>
+    <string name="cube_setting_upgrade">升级</string>
+    <string name="cube_setting_backup">备份</string>
+    <string name="cube_setting_restore">恢复</string>
+
+
+    <string name="please_confirm_upgrade_cube">您确定要升级吗?</string>
+    <string name="no_new_version">CUBE已是最新版本</string>
+    <string name="backup_success">備份成功</string>
+    <string name="backup_failed">備份失敗</string>
+    <string name="restore_backup_success">恢復備份成功</string>
+    <string name="restore_backup_failed">恢復備份失敗</string>
+    <string name="backup_in_progress">正在進行備份</string>
+    <string name="restoring_backup">正在恢復備份，稍後會重啟</string>
+    <string name="restoring_relogin">设备重启中，需要重新登录</string>
+
+
+    <string name="cube_version">版本</string>
+    <string name="cube_ip">IP地址</string>
+    <string name="cube_mac">MAC地址</string>
+    <string name="cube_hns_mac">HNS服务器IP地址</string>
+
+    <string name="property_ip">IP地址</string>
+    <string name="property_subnet_mask">子网掩码</string>
+    <string name="property_port">网关</string>
+    <string name="account_cube">关于CUBE</string>
+
+    <string name="property_net_ip">IP地址</string>
+    <string name="property_net_mac">MAC</string>
+    <string name="property_net_gw">网关</string>
+
+    <!-- H57925 Menu device add-->
+    <string name="menu_device_add_device_scan">扫描设备二维码</string>
+    <string name="menu_device_add_spark_lighting">Spark Lighting</string>
+    <string name="menu_device_add_wifi_ir">无线红外</string>
+    <string name="menu_device_add_wifi_relay">无线开关</string>
+    <string name="menu_device_add_wired_zone">有线防区</string>
+    <string name="menu_device_add_bacnet_ac">Bacnet 空调</string>
+    <string name="menu_device_add_ip_camera">Ip 摄像头</string>
+    <string name="menu_device_add_ipvdp_zone">IPVDP 防区</string>
+    <string name="menu_device_add_backaudio">音乐</string>
+    <string name="menu_device_add_485_device">485 设备</string>
+    <string name="menu_device_add_ventilation">空气净化器</string>
+    <string name="menu_device_add_315_433">RF 模块</string>
+    <string name="menu_module_add_ipvdp_extension">分机</string>
+
+    <string name="menu_device_edit_add">+</string>
+    <string name="main_loop">回路</string>
+    <string name="main_relay">开关</string>
+    <string name="main_zone">防区</string>
+    <string name="main_back_audio">音乐</string>
+    <string name="main_air_conditioner">空调</string>
+    <string name="main_485_device">485设备</string>
+
+    <string name="device_add_should_select_device">请至少选择一路设备</string>
+
+    <string name="device_id">设备 ID</string>
+    <string name="device_id_tip">整数(1-255)</string>
+    <string name="using">启用</string>
+    <string name="module_spark_lighting">Spark Lighting</string>
+    <string name="module_wifi_relay">开关模块</string>
+    <string name="module_wired_zone">防区模块</string>
+    <string name="module_bacnet">Bacnet 模块</string>
+    <string name="module_ipvdp">IPVDP</string>
+    <string name="module_backaudio">音乐</string>
+    <string name="module_wifi485">485模块</string>
+    <string name="delay">延时</string>
+    <string name="delay_time">延时时间</string>
+    <string name="alarm_type">报警类型</string>
+    <string name="zone">防区</string>
+    <string name="loop_id">回路 ID</string>
+    <string name="loop_type">回路类型</string>
+    <string name="brand_name">品牌名称</string>
+    <string name="port">端口</string>
+    <string name="sub_ip_addr">子网地址</string>
+    <string name="ip_addr">IP 地址</string>
+    <string name="type">类型</string>
+    <string name="ip_addr_hint">举例 192.168.1.1</string>
+    <string name="ipc_username_hint">IP攝影機用戶名稱</string>
+    <string name="ipc_password_hint">IP攝影機密碼</string>
+    <string name="loop_id_hint">整数(1-255)</string>
+    <string name="sub_ip_id">子网 ID</string>
+    <string name="bacnet_type">Bacnet 类型</string>
+    <string name="cube_bacnet_id">CUBE Bacnet ID</string>
+    <string name="bacnet_device_id">Bacnet 设备 ID</string>
+    <string name="hns_service_ip">HNS 服务器 IP</string>
+    <string name="device_need_module">請選擇模組</string>
+
+    <string name="device_aircondition">空調</string>
+    <string name="device_thermostat">溫控器</string>
+    <string name="device_ventilation">空氣凈化器</string>
+
+    <string name="device_ecc_o1">ECC O1</string>
+    <string name="device_htc961d3200">HTC961</string>
+    <string name="device_ecc_dt300">ECC DT300</string>
+    <string name="device_simens_rdf302">Simens RDF302</string>
+    <string name="device_dakin_dta116a621">Dakin DTA</string>
+    <string name="device_dakin_r4r5">Dakin R4R5</string>
+    <string name="device_4in1">4 IN 1</string>
+
+    <string name="device_dakin">大金</string>
+    <string name="device_sanling">三菱</string>
+
+    <string name="device_ipc_phoenix">Phoenix</string>
+    <string name="device_ipc_super_hd">Super HD</string>
+
+    <!-- H157925 Module part-->
+    <string name="module_add_discover">查找設備</string>
+    <string name="module_add_sparklighting">Spark Lighting 模块</string>
+    <string name="module_add_bacnet">Bacnet 模块</string>
+    <string name="module_add_ipvdp">IPVDP</string>
+
+    <!-- h157925 Rule part-->
+    <string name="rule_default_title">新规则</string>
+    <string name="rule_repeat_type_never">从不</string>
+    <string name="rule_repeat_type_Monday">週一</string>
+    <string name="rule_repeat_type_Tuesday">週二</string>
+    <string name="rule_repeat_type_Wednesday">週三</string>
+    <string name="rule_repeat_type_Thursday">週四</string>
+    <string name="rule_repeat_type_Friday">週五</string>
+    <string name="rule_repeat_type_Saturday">週六</string>
+    <string name="rule_repeat_type_Sunday">週日</string>
+    <string name="rule_repeat_type_workday">工作日</string>
+    <string name="rule_repeat_type_weekend">周末</string>
+    <string name="rule_repeat_type_everyday">每天</string>
+
+
+    <string name="rule_room_type_AirQ">空气质量</string>
+    <string name="rule_room_type_temperature">温度</string>
+    <string name="rule_room_type_humidity">湿度</string>
+    <string name="rule_room_type_PM">PM2.5</string>
+
+    <string name="rule_room_trigger_high">高于触发值</string>
+    <string name="rule_room_trigger_low">低于触发值</string>
+
+    <string name="rule_roomAQ_value_clean">非常干净</string>
+    <string name="rule_roomAQ_value_slight">正常</string>
+    <string name="rule_roomAQ_value_moderate">轻度污染</string>
+    <string name="rule_roomAQ_value_serious">重度污染</string>
+
+    <string name="dialog_update_title">更新</string>
+    <string name="dialog_update_msg">发现新版本，版本号：</string>
+    <string name="dialog_update_msg2">是否立即更新</string>
+    <string name="dialog_update_btnupdate">更新</string>
+    <string name="dialog_update_btnnext">下次再说</string>
+    <string name="dialog_downloading_msg">正在下载更新...</string>
+    <string name="dialog_alert_title">警告</string>
+    <string name="dialog_downfailed_btndown">重新下载</string>
+    <string name="dialog_downfailed_btnnext">以后再说</string>
+    <string name="dialog_error_title">错误</string>
+    <string name="dialog_downfailed_msg">下载更新失败，是否重试？</string>
+    <string name="no_net">网络不通</string>
+    <string name="is_latest_version">当前版本为最新版本</string>
+
+    <string name="lobby">DOORCAMERABACK</string>
+    <string name="incomingcall">有人呼入...</string>
+    <string name="end">End</string>
+    <string name="ipc_loading_tip">正在加载...</string>
+
+    <string name="wireless_infrared">无线红外</string>
+    <string name="clear">清空</string>
+    <string name="select_one_item">请至少选择一项</string>
+    <string name="study_one_item">请至少学习一项</string>
+    <string name="select_button">选择按钮</string>
+    <string name="code_mode">对码模式</string>
+    <string name="mode_name">模式名称</string>
+    <string name="temperature">温度</string>
+    <string name="mode">模式</string>
+    <string name="learn">学习</string>
+    <string name="ir_operation_tip">请点击箭头定义手势</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="up">上</string>
+    <string name="down">下</string>
+    <string name="click">点击</string>
+    <string name="device_add_tip">此设备已添加</string>
+    <string name="rule_edit">编辑规则</string>
+    <string name="rule_create">创建规则</string>
+    <string name="schedule_edit">编辑计划</string>
+    <string name="schedule_create">创建计划</string>
+    <string name="task">任務</string>
+    <string name="repeat">重复</string>
+    <string name="select_device">設備</string>
+    <string name="select_scenario">場景</string>
+    <string name="select_zone">防區</string>
+    <string name="set_status">设置状态</string>
+    <string name="rule_name">規則名稱</string>
+    <string name="work_time">工作時間</string>
+    <string name="start_time">開始時間</string>
+    <string name="end_time">結束時間</string>
+    <string name="step_one_tip">第一步；選擇一個觸發條件</string>
+    <string name="step_two_tip">第二步：選擇一個觸發任務</string>
+    <string name="condition">條件</string>
+    <string name="room_step_1">第一步：選擇房間</string>
+    <string name="room_step_2">第二步：選擇條件類型</string>
+    <string name="room_step_3">第三步：選擇觸發條件</string>
+    <string name="room_step_4">第四部：選擇觸發值</string>
+    <string name="value">值</string>
+    <string name="room_environment">房間環境</string>
+    <string name="select_all">全选</string>
+    <string name="sure">确定</string>
+    <string name="wind_speed">风速</string>
+    <string name="select_one_task">請設置任務</string>
+    <string name="illegal_input_string">输入内容不符合规定:字符个数(1-20)</string>
+    <string name="set_air_conditioner">设置空调</string>
+    <string name="set_input">請設置輸入</string>
+    <string name="input_custom_name">请输入自定义名称</string>
+    <string name="input_name">请输入名称</string>
+    <string name="define_gesture">请点击箭头定义手势</string>
+    <string name="touch_tip">拖拽进行上下左右调节，点击确认</string>
+    <string name="double_click_exit">再按一次退出云上家居</string>
+    <string name="alarm">报警</string>
+    <string name="version_number">版本号:</string>
+    <string name="copyright">©2016 Honeywell International Inc. All rights reserved.</string>
+    <string name="welcome_tip">欢迎使用云上家居</string>
+    <string name="exist_name">该名称已存在</string>
+    <string name="no_study">未学习此按钮</string>
+    <string name="sensor_type">传感器类型</string>
+    <string name="sensor_id">传感器 ID</string>
+    <string name="zone_module">防区模块</string>
+    <string name="zone_type">防区类型</string>
+    <string name="maia_type">MAIA 类型</string>
+    <string name="maia_id">MAIA ID</string>
+    <string name="maia_module">MAIA 模块</string>
+    <string name="power">電源</string>
+    <string name="loop">循環</string>
+    <string name="on_off">開/關</string>
+    <string name="inside_outside">内/外</string>
+    <string name="high">高</string>
+    <string name="middle">中</string>
+    <string name="low">低</string>
+    <string name="humidity">加濕</string>
+    <string name="dehumidity">除濕</string>
+    <string name="inside_loop">內循環</string>
+    <string name="outside_loop">外循環</string>
+    <string name="release_to_refresh">松开立即刷新</string>
+    <string name="swipe_to_refresh">下拉可以刷新</string>
+    <string name="refreshing">正在刷新数据中...</string>
+    <string name="refresh_complete">刷新成功</string>
+    <string name="release_to_loadmore">松开加载</string>
+    <string name="swipe_to_loadmore">上划加载</string>
+    <string name="loading">正在加载更多的数据...</string>
+    <string name="load_complete">加载成功</string>
+    <string name="current_temperature">当前温度</string>
+    <!-- H157925 AC-->
+    <string name="ac_mode_cool">致冷</string>
+    <string name="ac_mode_heat">加熱</string>
+    <string name="ac_mode_venlitation">通風</string>
+    <string name="ac_mode_dehumidify">除濕</string>
+    <string name="ac_mode_auto">自動</string>
+    <string name="link_device_password_hint">5个字符</string>
+
+    <string name="sensor_type_infrade">红外</string>
+    <string name="sensor_type_keyfob">门磁</string>
+    <string name="sensor_type_door">安防遥控</string>
+
+    <string name="zone_type_instance">立即</string>
+    <string name="zone_type_delay">延時</string>
+    <string name="zone_type_24">24小時</string>
+
+    <string name="ventilation_humidity">加湿</string>
+    <string name="ventilation_dehumidity">除湿</string>
+
+    <!-- H157925 Home room-->
+    <string name="home_room_detail_co2">二氧化碳</string>
+    <string name="home_room_detail_pm2_5">PM2.5</string>
+    <string name="home_room_detail_humidity">濕度</string>
+    <string name="home_room_detail_temperature">溫度</string>
+
+    <!-- H157925 呼叫类型-->
+    <string name="pop_phonecall_frontdoor">前门口</string>
+    <string name="pop_phonecall_guard">保安</string>
+    <string name="pop_phonecall_lobby">单元门口</string>
+    <string name="pop_phonecall_office">管理中心</string>
+    <string name="pop_phonecall_reardoor">后门口</string>
+    <string name="pop_phonecall_subphone">分机</string>
+
+    <string name="input_password">請輸入密碼</string>
+    <string name="main_connect">連接</string>
+
+    <string name="illegal_number">号码不正确</string>
+    <string name="select_picture">选择照片</string>
+    <string name="take_picture">拍照</string>
+    <string name="text_hint_6c">必须为6个字符</string>
+    <string name="ip_not_null">IP 地址不能为空</string>
+    <string name="hns_ip_not_null">HNS服务器IP不能为空</string>
+    <string name="name_not_null">名称不能为空</string>
+    <string name="bacnet_type_not_null">Bacnet 类型不能为空</string>
+    <string name="bacnet_id_illegal">CUBE Bacnet ID不合法</string>
+    <string name="bacnet_device_id_illegal">Bacnet 设备 ID不合法</string>
+    <string name="sub_id_illegal">子网 ID不合法</string>
+    <string name="air_conditioner">空调</string>
+    <string name="sure_restore_to_latest">您确定恢复到最新备份吗？</string>
+    <string name="location_failure">定位失败</string>
+    <string name="old_pwd">旧密码</string>
+    <string name="new_pwd">新密码</string>
+    <string name="input_city_name">请输入您所在城市名称</string>
+    <string name="hot_city">热门城市</string>
+    <string name="gps_location">GPS定位中...</string>
+    <string name="id">ID</string>
+    <string name="select_city_anually">手动选择所在城市</string>
+    <string name="your_city">您所在的城市:</string>
+    <string name="no_matched_city">没有你要搜索的城市，请重试</string>
+    <string name="sure_device_nearby">请确保正在配置的设备在手机旁边</string>
+    <string name="net_connect">网络连接</string>
+    <string name="wifi">WIFI</string>
+    <string name="backup_description">备份描述</string>
+</resources>

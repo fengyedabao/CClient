@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>detail</key>
+		<string>2 路6A 调光模块</string>
+		<key>loop</key>
+		<string>2</string>
+		<key>title</key>
+		<string>HBLS-D0206</string>
+		<key>type</key>
+		<string>light</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>4 路3A 调光模块</string>
+		<key>loop</key>
+		<string>4</string>
+		<key>title</key>
+		<string>HBLS-D0403</string>
+		<key>type</key>
+		<string>light</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>6 路2A 调光模块</string>
+		<key>loop</key>
+		<string>6</string>
+		<key>title</key>
+		<string>HBLS-D0602</string>
+		<key>type</key>
+		<string>light</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>6 路10A DC 0~10V 调光器模块</string>
+		<key>loop</key>
+		<string>6</string>
+		<key>title</key>
+		<string>HBLS-D0610-DC</string>
+		<key>type</key>
+		<string>light</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>6 路5A LED 调光模块</string>
+		<key>loop</key>
+		<string>6</string>
+		<key>title</key>
+		<string>HBLS-D0605-LED</string>
+		<key>type</key>
+		<string>light</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>2 路智能窗帘控制器</string>
+		<key>loop</key>
+		<string>2</string>
+		<key>title</key>
+		<string>HBLS-C02</string>
+		<key>type</key>
+		<string>curtain</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>4 路10A 智能继电器</string>
+		<key>loop</key>
+		<string>4</string>
+		<key>title</key>
+		<string>HBLS-R0410</string>
+		<key>type</key>
+		<string>relay</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>8 路10A 智能继电器</string>
+		<key>loop</key>
+		<string>8</string>
+		<key>title</key>
+		<string>HBLS-R0810</string>
+		<key>type</key>
+		<string>relay</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>12 路10A 智能继电器</string>
+		<key>loop</key>
+		<string>12</string>
+		<key>title</key>
+		<string>HBLS-R1210</string>
+		<key>type</key>
+		<string>relay</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>吸顶红外传感器</string>
+		<key>loop</key>
+		<string>1</string>
+		<key>title</key>
+		<string>HBLS-SIR</string>
+		<key>type</key>
+		<string>sensor</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>亮度、空气质量传感器组合</string>
+		<key>loop</key>
+		<string>1</string>
+		<key>title</key>
+		<string>HBLS-STLA</string>
+		<key>type</key>
+		<string>sensor</string>
+	</dict>
+</array>
+</plist>

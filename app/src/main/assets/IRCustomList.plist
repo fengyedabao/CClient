@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>IR_POWER</string>
+	<string>IR_OK</string>
+	<string>IR_UP</string>
+	<string>IR_LEFT</string>
+	<string>IR_DOWN</string>
+	<string>IR_RIGHT</string>
+	<string>IR_INPUT</string>
+	<string>IR_MENU</string>
+	<string>IR_BACK</string>
+	<string>IR_MUTE</string>
+	<string>IR_VOL_UP</string>
+	<string>IR_VOL_DOWN</string>
+	<string>IR_FB</string>
+	<string>IR_FF</string>
+	<string>IR_PG_LAST</string>
+	<string>IR_PG_NEXT</string>
+</array>
+</plist>

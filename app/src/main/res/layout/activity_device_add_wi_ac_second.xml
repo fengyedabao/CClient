@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_clear"
+        android:background="@color/activity_background"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/layout_header_opaque" />
+
+        <include layout="@layout/layout_divider" />
+
+        <com.honeywell.lib.widgets.ListViewCompat
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/list_divider_margin"
+            android:listSelector="@color/transparent"
+            android:scrollbars="none">
+
+        </com.honeywell.lib.widgets.ListViewCompat>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        style="@style/bottom_button_style"
+        android:text="@string/add" />
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>ir_customize</string>
+		<key>image</key>
+		<string>ir_customize.png</string>
+		<key>type</key>
+		<string>customize</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ir_ac</string>
+		<key>image</key>
+		<string>ir_ac.png</string>
+		<key>type</key>
+		<string>ac</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ir_dvd</string>
+		<key>image</key>
+		<string>ir_dvd.png</string>
+		<key>type</key>
+		<string>dvd</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ir_television</string>
+		<key>image</key>
+		<string>ir_television.png</string>
+		<key>type</key>
+		<string>television</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>ir_stb</string>
+		<key>image</key>
+		<string>ir_stb.png</string>
+		<key>type</key>
+		<string>stb</string>
+	</dict>
+</array>
+</plist>

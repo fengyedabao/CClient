@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.honeywell.cube.widgets.EditTextItem
+        android:id="@+id/ei_device_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height_device_add" />
+
+    <View style="@style/divider_margin_style" />
+
+    <com.honeywell.cube.widgets.SelectItem
+        android:id="@+id/si_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height_device_add" />
+
+</LinearLayout>
+
+

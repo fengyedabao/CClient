@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_header_opaque" />
+
+        <View
+            style="@style/divider_style"
+            android:layout_below="@+id/title_bar" />
+
+        <View
+            style="@style/divider_style"
+            android:layout_below="@+id/title_bar"
+            android:layout_marginTop="@dimen/login_item_margin" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                style="@style/list_item_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_scenario_name" />
+
+            <EditText
+                android:id="@+id/et_scenario_name"
+                style="@style/edit_text_style"
+                android:gravity="end"
+                android:hint="@string/edit_scenario_name_hint"
+                android:maxLength="20"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <View style="@style/divider_style" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gv_icon"
+        android:padding="10dp"
+        android:text="@string/edit_scenario_select_icon"
+        android:textColor="#8A8A8A"
+        android:textSize="20sp" />
+
+    <com.honeywell.lib.widgets.GridViewGallery
+        android:id="@+id/gv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

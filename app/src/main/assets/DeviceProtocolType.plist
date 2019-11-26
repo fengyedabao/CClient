@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<string>light</string>
+	<key>2</key>
+	<string>curtain</string>
+	<key>3</key>
+	<string>relay</string>
+	<key>4</key>
+	<string>switch</string>
+	<key>5</key>
+	<string>sensor</string>
+	<key>6</key>
+	<string>5800-PIR-AP</string>
+	<key>7</key>
+	<string>5804EU</string>
+	<key>8</key>
+	<string>5816EU</string>
+</dict>
+</plist>

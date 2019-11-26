@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/thumb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_schedule_height"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14:58"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/tv_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/cb_switch"
+            android:layout_toRightOf="@+id/tv_title"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:text="Sparklighting 开灯计划 周一,周二,周三,周四,周五"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:typeface="normal" />
+
+        <CheckBox
+            android:id="@+id/cb_switch"
+            style="@style/checkbox_switch_style"
+            android:checked="true" />
+
+
+    </RelativeLayout>
+</FrameLayout>
+

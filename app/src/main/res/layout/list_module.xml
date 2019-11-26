@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/thumb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_module_height"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp">
+
+        <View
+            android:id="@+id/flag"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/module_enable" />
+
+        <LinearLayout
+            android:id="@+id/ll_primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/flag">
+
+            <TextView
+
+                android:id="@+id/tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:text="HRJ-HUIOEH-NDIOASHD8908-490JKHSFKUU"
+                android:textColor="@color/text_color_primary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="end|center_vertical"
+
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:text="V0.0.5.290"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_primary"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/flag">
+
+            <TextView
+
+                android:id="@+id/tv_module"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:text="Spark Lighting"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_ip_addr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:gravity="end|center_vertical"
+
+                android:paddingRight="10dp"
+                android:singleLine="true"
+                android:text="172.168.101.201"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
+

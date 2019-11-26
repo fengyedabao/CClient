@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>master_bedroom</string>
+		<key>protocol</key>
+		<array>
+			<string>Master Bedroom</string>
+			<string>主卧</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>second_bedroom</string>
+		<key>protocol</key>
+		<array>
+			<string>Second Bedroom</string>
+			<string>次卧</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>guest_bedroom</string>
+		<key>protocol</key>
+		<array>
+			<string>Guest Bedroom</string>
+			<string>客房</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>kitchen</string>
+		<key>protocol</key>
+		<array>
+			<string>Kitchen</string>
+			<string>厨房</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>dining_room</string>
+		<key>protocol</key>
+		<array>
+			<string>Dining Room</string>
+			<string>餐厅</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>living_room</string>
+		<key>protocol</key>
+		<array>
+			<string>Living Room</string>
+			<string>客厅</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>master_bathroom</string>
+		<key>protocol</key>
+		<array>
+			<string>Master Bathroom</string>
+			<string>主卫生间</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>second_bathroom</string>
+		<key>protocol</key>
+		<array>
+			<string>Second Bathroom</string>
+			<string>第二卫生间</string>
+		</array>
+	</dict>
+</array>
+</plist>

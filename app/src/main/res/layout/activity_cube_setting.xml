@@ -1,0 +1,368 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_opaque" />
+
+    <View style="@style/divider_style" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                style="@style/divider_style"
+                android:layout_marginTop="@dimen/header_margin" />
+
+            <RelativeLayout
+                android:id="@+id/rl_cube_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingRight="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/cube_setting_portrait"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+                <ImageView
+                    android:id="@+id/iv_head"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/ic_launcher" />
+            </RelativeLayout>
+
+            <View style="@style/divider_style" />
+
+            <View
+                style="@style/divider_style"
+                android:layout_marginTop="20dp" />
+
+            <RelativeLayout
+                android:id="@+id/rl_cube_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/cube_setting_about_cube"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+                <ImageView style="@style/image_right_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_setting_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/cube_setting_set_alias_name"
+                    android:textSize="18sp" />
+
+                <ImageView style="@style/image_right_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_change_login_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/cube_setting_change_login_password"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_change_cube"
+                    style="@style/image_right_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_change_safety_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/cube_setting_change_security_password"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+                <ImageView style="@style/image_right_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_property_net"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/cube_setting_ethernet"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+                <ImageView style="@style/image_right_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_voice_recognition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/cube_setting_voice_control"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+                <CheckBox
+                    android:id="@+id/cb_show_password"
+                    style="@style/checkbox_switch_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_search_device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingRight="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/cube_setting_replace_cube"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_set_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/cube_setting_set_location"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/iv_location_right"
+                    android:gravity="center_vertical"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/iv_location_right"
+                    style="@style/image_right_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_style" />
+
+            <View
+                style="@style/divider_style"
+                android:layout_marginTop="@dimen/header_margin" />
+
+            <RelativeLayout
+                android:id="@+id/rl_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingRight="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/cube_setting_upgrade"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+                <ImageView
+                    android:id="@+id/iv_update_flag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/upgrade_red"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_backup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingRight="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/cube_setting_backup"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_recover_backup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingRight="@dimen/common_margin_left_right"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/cube_setting_restore"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <View style="@style/divider_margin_style" />
+
+            <RelativeLayout
+                android:id="@+id/rl_recover_history_backup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingLeft="@dimen/common_margin_left_right"
+                android:paddingTop="10dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/cube_setting_restore"
+                    android:textSize="18sp" />
+                <!--android:text="18516031650"-->
+                <ImageView style="@style/image_right_style" />
+            </RelativeLayout>
+
+            <View style="@style/divider_style" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+

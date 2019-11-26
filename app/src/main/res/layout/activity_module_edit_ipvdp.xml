@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_opaque" />
+
+    <include layout="@layout/layout_divider" />
+
+
+    <View
+        style="@style/divider_style"
+        android:layout_marginTop="@dimen/header_margin"></View>
+
+    <com.honeywell.cube.widgets.EditTextItem
+        android:id="@+id/ei_name"
+        style="@style/common_item_style" />
+
+
+    <View style="@style/divider_margin_style" />
+
+    <com.honeywell.cube.widgets.EditTextItem
+        android:id="@+id/ei_ip_addr"
+        style="@style/common_item_style" />
+
+    <View style="@style/divider_margin_style" />
+
+    <com.honeywell.cube.widgets.EditTextItem
+        android:id="@+id/ei_hns_id"
+        style="@style/common_item_style" />
+
+    <View style="@style/divider_style" />
+
+</LinearLayout>

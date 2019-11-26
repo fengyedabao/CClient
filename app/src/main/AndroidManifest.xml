@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.honeywell.cube">
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 【必须】 信鸽SDK所需权限 -->
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--<uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />-->
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />-->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+    <!--<uses-permission android:name="android.permission.WAKE_LOCK" />-->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 【可选】 信鸽SDK所需权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--<uses-permission android:name="android.permission.VIBRATE" />-->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+
+    <application
+        android:name=".activities.CubeApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- service -->
+        <!-- 高德API -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="59426176b4c98cd1b201fd0c7005fd21" />
+
+        <service android:name=".net.service.CubeAppService" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <!-- android:exported="true" -->
+        <activity
+            android:name=".activities.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/CubeBaseTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ForgotPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CountrySelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ScenarioEditFirstActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activities.ScenarioEditSecondActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.ScenarioEditSelectDeviceActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.ScenarioEditConfigureWIActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activities.DeviceEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceEditMoreDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddWirelessInfraredActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddWirelessInfraredFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddWICustomFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddWICustomSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddWICommonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddWIAirConditionerFirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAddWIAirConditionerSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceSubListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ModuleListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ModuleEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ModuleEditIPVDPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.RuleListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.RuleEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activities.ScheduleListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ScheduleEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SelectDeviceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SetDeviceStatusActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SetRoomEnvironmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.NotificationListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceAirConditionerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceVentilationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceWICommonActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceWIACActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeviceWICustomActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.IpcPlayerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activities.CallScreenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.RoomEditActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activities.RoomDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AccountSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CubeSettingCommeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CubeSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SetCityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CubePropertyNetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.lib.qrcode.CaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.honeywell.lib.qrcode.CaptureInputActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CaptureResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ScanResult433Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ScanResultMaiaActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name=".ipc.JsonTcpService"
+            android:process=":jsontcpadapter">
+            <intent-filter>
+                <action android:name="com.honeywell.cube.ipc.JsonTcpService" />
+            </intent-filter>
+        </service>
+
+        <!-- begin:XGPush sdk -->
+        <!-- 【必须】 信鸽receiver广播接收 -->
+        <receiver
+            android:name="com.tencent.android.tpush.XGPushReceiver"
+            android:process=":xg_service_v2">
+            <intent-filter android:priority="0x7fffffff">
+
+                <!-- 【必须】 信鸽SDK的内部广播 -->
+                <action android:name="com.tencent.android.tpush.action.SDK" />
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
+                <!-- 【必须】 系统广播：开屏和网络切换 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <!-- 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+        <!-- 【注意】 如果被打开的activity是启动模式为SingleTop，SingleTask或SingleInstance，请根据通知的异常自查列表第8点处理 -->
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:exported="false">
+            <intent-filter>
+
+                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
+                <action android:name="android.intent.action" />
+            </intent-filter>
+        </activity>
+
+        <!-- 【必须】 信鸽service -->
+        <service
+            android:name="com.tencent.android.tpush.service.XGPushService"
+            android:exported="true"
+            android:persistent="true"
+            android:process=":xg_service_v2" />
+
+        <!-- 【必须】 通知service，此选项有助于提高抵达率 -->
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.honeywell.cube.PUSH_ACTION" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".receiver.MessageReceiver"
+            android:exported="true">
+            <intent-filter>
+
+                <!-- 接收消息透传 -->
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+            </intent-filter>
+        </receiver>
+        <!-- 【必须】 请将YOUR_ACCESS_ID修改为APP的AccessId，“21”开头的10位数字，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_ID"
+            android:value="2100208801" />
+        <!-- 【必须】 请将YOUR_ACCESS_KEY修改为APP的AccessKey，“A”开头的12位字符串，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_KEY"
+            android:value="A55SFAR993MT" />
+        <!-- end:XGPush sdk -->
+
+        <receiver android:name=".receiver.NetworkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

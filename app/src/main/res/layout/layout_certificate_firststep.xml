@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/select_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/common_margin_left_right"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/country"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/country_code"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@+id/iv_control_right"
+            android:gravity="center_vertical"
+            android:text="@string/chinese_countrCode"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_control_right"
+            style="@style/image_right_style" />
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/common_margin_left_right"
+        android:paddingRight="@dimen/common_margin_left_right"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/telephone_title"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/register_tele_num"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="@string/telephone_num"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+
+</LinearLayout>

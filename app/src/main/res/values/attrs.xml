@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- H157925 圆角头像-->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="WeatherView">
+
+
+        <attr name="weather_background" format="reference" />
+        <attr name="temperature" format="integer" />
+        <attr name="pm2_5" format="integer" />
+        <attr name="todayWeather" format="reference" />
+
+        <attr name="week_1_title" format="string" />
+        <attr name="week_1_icon" format="reference" />
+        <attr name="week_2_title" format="string" />
+        <attr name="week_2_icon" format="reference" />
+        <attr name="week_3_title" format="string" />
+        <attr name="week_3_icon" format="reference" />
+        <attr name="week_4_title" format="string" />
+        <attr name="week_4_icon" format="reference" />
+        <attr name="week_5_title" format="string" />
+        <attr name="week_5_icon" format="reference" />
+        <attr name="week_6_title" format="string" />
+        <attr name="week_6_icon" format="reference" />
+
+    </declare-styleable>
+</resources>

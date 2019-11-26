@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/define_gesture"
+        android:textColor="@color/text_color_secondary"
+        android:textSize="@dimen/ir_control_panel_text_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_tip">
+
+        <RelativeLayout
+            android:id="@+id/rl_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_up"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/ir_control_up" />
+
+            <TextView
+                android:id="@+id/tv_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_up"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/up"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/ir_control_panel_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="@string/up"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/ir_control_panel_text_size" />
+
+            <ImageView
+                android:id="@+id/iv_down"
+                android:layout_width="@dimen/ir_control_panel_icon_size"
+                android:layout_height="@dimen/ir_control_panel_icon_size"
+                android:layout_below="@+id/tv_down"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ir_control_down" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                android:id="@+id/iv_left"
+                android:layout_width="@dimen/ir_control_panel_icon_size"
+                android:layout_height="@dimen/ir_control_panel_icon_size"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ir_control_left" />
+
+            <TextView
+                android:id="@+id/tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_left"
+                android:gravity="center_horizontal"
+                android:text="@string/left"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/ir_control_panel_text_size" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:text="@string/right"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/ir_control_panel_text_size" />
+
+            <ImageView
+                android:id="@+id/iv_right"
+                android:layout_width="@dimen/ir_control_panel_icon_size"
+                android:layout_height="@dimen/ir_control_panel_icon_size"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/tv_right"
+                android:src="@mipmap/ir_control_right" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_click"
+            android:layout_width="@dimen/ir_control_panel_icon_size"
+            android:layout_height="@dimen/ir_control_panel_icon_size"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ir_control_tap" />
+
+        <TextView
+            android:id="@+id/tv_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_click"
+            android:text="@string/click"
+            android:textColor="@color/text_color_secondary"
+            android:textSize="@dimen/ir_control_panel_text_size" />
+    </RelativeLayout>
+</merge>

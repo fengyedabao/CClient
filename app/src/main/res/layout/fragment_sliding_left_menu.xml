@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing">
+
+            <com.honeywell.cube.widgets.CircleImageView
+                android:id="@+id/circle_avatar_view"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/iv_login_status"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignRight="@+id/circle_avatar_view"
+                android:src="@mipmap/account_default" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_name_inside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/nav_header_vertical_spacing"
+            android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+            android:gravity="center"
+            android:text="@string/slide_menu_login_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FEFEFE"
+            android:textSize="@dimen/slide_account_text_size" />
+
+        <TextView
+            android:id="@+id/tv_name_outside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/nav_header_vertical_spacing"
+            android:layout_marginTop="@dimen/nav_header_vertical_spacing"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#8D8D8D"
+
+            android:textSize="@dimen/slide_account_text_size" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logout"
+        android:layout_below="@id/title"
+        android:background="#202020"
+        android:divider="@drawable/list_divider_dark" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/tabbar_height"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:text="@string/logout_title"
+        android:textColor="#646464"
+        android:textSize="18sp" />
+</RelativeLayout>

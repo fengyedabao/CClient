@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Week_Monday</string>
+		<key>protocol</key>
+		<string>monday</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Week_Tuesday</string>
+		<key>protocol</key>
+		<string>tuesday</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Week_Wednesday</string>
+		<key>protocol</key>
+		<string>wednesday</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Week_Thursday</string>
+		<key>protocol</key>
+		<string>thursday</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Week_Friday</string>
+		<key>protocol</key>
+		<string>friday</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Week_Saturday</string>
+		<key>protocol</key>
+		<string>saturday</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Week_Sunday</string>
+		<key>protocol</key>
+		<string>sunday</string>
+	</dict>
+</array>
+</plist>

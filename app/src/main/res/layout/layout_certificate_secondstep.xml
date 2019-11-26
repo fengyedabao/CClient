@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/select_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/common_margin_left_right"
+        android:paddingRight="@dimen/common_margin_left_right"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/validate_title"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/validate"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/validate_code_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/divider"
+            android:layout_toRightOf="@id/validate_title"
+
+            android:background="@null"
+            android:hint="@string/validate_code"
+            android:singleLine="true" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/validate_retry"
+            android:layout_alignTop="@+id/validate_retry"
+            android:layout_toLeftOf="@+id/validate_retry"
+            android:background="@color/header_divider_color" />
+
+        <TextView
+            android:id="@+id/validate_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="70dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/retry" />
+
+
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+    <View
+        style="@style/divider_style"
+        android:layout_marginTop="@dimen/header_margin" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/common_margin_left_right"
+        android:paddingRight="@dimen/common_margin_left_right"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_password_tip"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/password"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/cb_show_password"
+            android:layout_toRightOf="@+id/tv_password_tip"
+            android:background="@null"
+            android:hint="@string/password_tip"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <CheckBox
+            android:id="@+id/cb_show_password"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/checkbox_show_password"
+            android:button="@null"
+            android:paddingLeft="10dp" />
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+
+</LinearLayout>

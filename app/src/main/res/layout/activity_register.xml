@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_opaque" />
+
+    <View style="@style/divider_style" />
+
+    <View
+        style="@style/divider_style"
+        android:layout_marginTop="@dimen/header_margin" />
+
+
+    <include
+        android:id="@+id/first_step"
+        layout="@layout/layout_certificate_firststep"></include>
+
+    <include
+        android:id="@+id/second_step"
+        layout="@layout/layout_certificate_secondstep"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_next"
+            style="@style/bottom_button_style"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:enabled="false"
+            android:text="@string/next_step" />
+    </RelativeLayout>
+
+</LinearLayout>

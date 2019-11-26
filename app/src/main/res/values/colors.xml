@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- add by H157925 -->
+    <color name="transparent">#00000000</color>
+    <color name="gray">#8D7A71</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFC800</color>
+    <color name="black">#000000</color>
+    <color name="color_line">#404040</color>
+
+    <!-- slide menu-->
+    <color name="slide_backgroundColor">#e3e3e3</color>
+    <color name="slide_textColor">#2d2d2d</color>
+
+    <!-- main tabbar-->
+    <color name="main_tabbar_select_color">#2689e6</color>
+    <color name="main_tabbar_normal_color">#52a2e7</color>
+
+    <!-- scenario color-->
+    <color name="scenario_item_board_line">#e7e7e7</color>
+    <color name="senario_item_selector">#2285da</color>
+    <color name="senario_item_normal">#424242</color>
+
+    <!-- top bar title color-->
+    <color name="top_bar_title_color">#353535</color>
+
+    <color name="scenario_tip_text_color">#000000</color>
+
+    <color name="btn_background_orange">#EC4D1A</color>
+    <color name="btn_background_blue">#1770D7</color>
+    <color name="btn_background_disable">#CACACA</color>
+    <color name="notification_item_bg_disable">#EDEDED</color>
+    <color name="item_expand_background">#E2E2E2</color>
+    <color name="item_collapse_background">#FFFFFF</color>
+
+    <color name="cell_delete_background">#E2181B</color>
+    <color name="cell_edit_background">#848484</color>
+
+    <color name="activity_background">#F2F2F2</color>
+    <color name="base_color_blue">#1770D7</color>
+    <color name="weather_temp_blue">#62aced</color>
+    <color name="weather_pm_yellow">#e1bf54</color>
+
+    <!--<color name="text_color_primary">#000000</color>-->
+    <!--<color name="text_color_secondary">#8C8C8C</color>-->
+    <color name="module_enable">#619d25</color>
+    <color name="module_disable">#d81e20</color>
+    <color name="text_color_hint">#C7C7C7</color>
+
+    <color name="call_background">#ff212121</color>
+
+    <color name="light_gray">#888888</color>
+
+    <color name="refresh_tip_color">#222222</color>
+</resources>

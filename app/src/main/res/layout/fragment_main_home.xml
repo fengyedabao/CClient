@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.honeywell.cube.widgets.WeatherGroup
+        android:id="@+id/weather_group"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:id="@+id/tv_scenario_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_group"
+        android:layout_marginBottom="@dimen/scenario_tip_margin"
+        android:layout_marginLeft="@dimen/scenario_tip_margin"
+        android:layout_marginRight="@dimen/scenario_tip_margin"
+        android:layout_marginTop="@dimen/scenario_tip_margin"
+        android:text="@string/scenario_tip"
+        android:textColor="@color/scenario_tip_text_color"
+        android:textSize="@dimen/scenario_tip_text_size" />
+
+    <TextView
+        android:id="@+id/tv_scenario_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_scenario_tip"
+        android:layout_toRightOf="@+id/tv_scenario_tip"
+        android:textColor="@color/scenario_tip_text_color"
+        android:textSize="@dimen/scenario_tip_text_size" />
+
+    <ImageView
+        android:id="@+id/iv_zone_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/weather_group"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY" />
+
+    <include layout="@layout/layout_home_header" />
+
+    <com.honeywell.lib.widgets.swipetoloadlayout.SwipeToLoadLayout
+        android:id="@+id/swipeToLoadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_voice"
+        android:layout_below="@+id/tv_scenario_tip"
+        app:swipe_style="classic">
+
+        <include
+            android:id="@id/swipe_refresh_header"
+            layout="@layout/layout_twitter_header" />
+
+        <GridView
+            android:id="@+id/swipe_target"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="0dp"
+            android:listSelector="@color/transparent"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" />
+
+        <com.honeywell.lib.widgets.swipetoloadlayout.SwipeLoadMoreFooterLayout
+            android:id="@id/swipe_load_more_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.honeywell.lib.widgets.swipetoloadlayout.SwipeToLoadLayout>
+
+    <Button
+        android:id="@+id/btn_voice"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/voice" />
+</RelativeLayout>

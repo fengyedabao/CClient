@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:orientation="vertical">
+
+
+    <View
+        style="@style/divider_style"
+        android:layout_marginTop="@dimen/header_margin" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/common_margin_left_right"
+        android:paddingRight="@dimen/common_margin_left_right"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_password_tip_old"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/old_pwd"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_password_old"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/cb_show_password_old"
+            android:layout_toRightOf="@+id/tv_password_tip_old"
+            android:background="@null"
+            android:hint="@string/password_tip"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <CheckBox
+            android:id="@+id/cb_show_password_old"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/checkbox_show_password"
+            android:button="@null"
+            android:paddingLeft="10dp" />
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+
+
+    <View
+        style="@style/divider_style"
+        android:layout_marginTop="@dimen/header_margin" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/common_margin_left_right"
+        android:paddingRight="@dimen/common_margin_left_right"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_password_tip_new"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/new_pwd"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_password_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/cb_show_password_new"
+            android:layout_toRightOf="@+id/tv_password_tip_new"
+            android:background="@null"
+            android:hint="@string/password_tip"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <CheckBox
+            android:id="@+id/cb_show_password_new"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/checkbox_show_password"
+            android:button="@null"
+            android:paddingLeft="10dp" />
+    </RelativeLayout>
+
+    <View style="@style/divider_style" />
+</LinearLayout>

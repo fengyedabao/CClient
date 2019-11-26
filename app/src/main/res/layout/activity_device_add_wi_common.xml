@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_header_opaque" />
+
+    <include layout="@layout/layout_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/white">
+
+            <GridView
+                android:id="@+id/gv_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:horizontalSpacing="35dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="15dp" />
+        </FrameLayout>
+
+        <View style="@style/divider_style" />
+
+        <com.honeywell.cube.widgets.IRControlTouchPanel
+            android:id="@+id/ir_touch_panel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#F6F6F6"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="@string/touch_tip"
+            android:textColor="@color/text_color_secondary"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <com.honeywell.cube.widgets.IRControlPanel
+            android:id="@+id/ir_panel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#F6F6F6" />
+
+        <com.honeywell.cube.widgets.IRNumberPanel
+            android:id="@+id/ir_number_panel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#F6F6F6"
+            android:visibility="gone" />
+
+        <View style="@style/divider_style" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@color/white">
+
+            <GridView
+                android:id="@+id/gv_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:horizontalSpacing="35dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="4"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="15dp" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

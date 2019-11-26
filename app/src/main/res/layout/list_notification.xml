@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/notification_item_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/item_height"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="@dimen/sliding_menu_icon_size"
+                android:layout_height="@dimen/sliding_menu_icon_size"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/icon_margin"
+                android:src="@mipmap/alarm_fire" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/item_primary_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tv_time"
+                android:layout_toRightOf="@id/iv_icon" />
+
+            <TextView
+                android:id="@+id/tv_addr"
+                style="@style/item_secondary_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/tv_time"
+                android:layout_toRightOf="@id/iv_icon" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                style="@style/item_secondary_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBaseline="@+id/tv_addr"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <com.honeywell.lib.widgets.SquareImageView
+            android:id="@+id/iv_play_video"
+            android:layout_width="@dimen/item_height"
+            android:layout_height="@dimen/item_height"
+            android:padding="10dp"
+            android:src="@mipmap/notification_play_video"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View style="@style/divider_margin_style" />
+</LinearLayout>

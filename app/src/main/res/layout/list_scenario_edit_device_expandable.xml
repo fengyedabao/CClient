@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/thumb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/list_item_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_toLeftOf="@+id/iv_expandable" />
+
+        <ImageView
+            android:id="@+id/iv_expandable"
+            style="@style/expandable_icon_style" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/expandable_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/iv_volume"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/back_audio_volume"
+            android:visibility="gone" />
+
+        <SeekBar
+            android:id="@+id/sb_light"
+            style="@style/seekbar_style"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/cb_switch"
+            android:layout_toRightOf="@+id/iv_volume" />
+
+        <CheckBox
+            android:id="@+id/cb_switch"
+            style="@style/checkbox_switch_style" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+

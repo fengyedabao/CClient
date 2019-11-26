@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle_seekbar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/layout_header_opaque" />
+
+
+    <include layout="@layout/layout_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/cb_power"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/ac_start_gray" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/tv_current_temperature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="37"
+                        android:textColor="@color/btn_background_blue"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/tv_current_temperature"
+                        android:layout_toRightOf="@+id/tv_current_temperature"
+                        android:paddingTop="5dp"
+                        android:text=" ℃"
+                        android:textColor="@color/btn_background_blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_current_temperature"
+                        android:text="@string/current_temperature"
+                        android:textColor="@color/text_color_secondary"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+                <!--circle_seekbar:progress_front="@android:color/darker_gray"-->
+                <com.honeywell.lib.widgets.CircleSeekBar
+                    android:id="@+id/sb_temperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:thumb="@drawable/thumb"
+                    circle_seekbar:android_background="@mipmap/ac_start_r"
+                    circle_seekbar:progress_backgroud="@android:color/holo_blue_light"
+                    circle_seekbar:progress_circle_color="@android:color/darker_gray"
+                    circle_seekbar:progress_front="@android:color/holo_blue_light"
+                    circle_seekbar:progress_max="30"
+                    circle_seekbar:progress_min="12"
+                    circle_seekbar:progress_text_color="@color/black"
+                    circle_seekbar:progress_text_size="24sp"
+                    circle_seekbar:progress_text_stroke_width="4dp"
+                    circle_seekbar:progress_width="2dp"
+                    circle_seekbar:show_progress_text="true" />
+            </FrameLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/list_item_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mode" />
+
+            <GridView
+                android:id="@+id/gv_mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="35dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="5"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="0dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/list_item_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/wind_speed" />
+
+            <GridView
+                android:id="@+id/gv_speed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:horizontalSpacing="35dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="5"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

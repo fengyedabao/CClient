@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_section"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E3E3E3">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="32dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/notification_section_blue" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tv_section_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="07"
+            android:textColor="#797979"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/tv_section_th"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_section_day"
+
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:text="th"
+            android:textColor="#797979"
+            android:textSize="12sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/tv_section_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_section_th"
+            android:singleLine="true"
+            android:text=", "
+            android:textColor="#797979"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/tv_section_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_section_s"
+            android:singleLine="true"
+            android:text="JulAugDec"
+            android:textColor="#797979"
+            android:textSize="20sp"
+            android:typeface="normal" />
+    </RelativeLayout>
+</LinearLayout>
+
+

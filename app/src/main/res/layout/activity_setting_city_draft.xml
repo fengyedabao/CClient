@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_header_opaque"></include>
+
+    <View style="@style/divider_style" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:hint="@string/input_city_name"
+            android:imeOptions="actionSearch|flagNoExtractUi"
+            android:paddingLeft="8dp"
+            android:paddingRight="60dp"
+            android:singleLine="true"
+            android:textColorHint="#bbbbbb"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/bt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/et_search" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_auto_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/gps_loading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="12dp"
+            android:visibility="visible">
+
+            <ProgressBar
+                android:id="@+id/pb_location"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp" />
+
+
+            <TextView
+                android:id="@+id/city_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/pb_location"
+                android:background="@drawable/edittext_frame"
+                android:text="@string/gps_location"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_hotlocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
+
+                android:gravity="center"
+                android:text="@string/hot_city"
+                android:textColor="@android:color/black"
+                android:textSize="13dp" />
+
+            <TableLayout
+                android:id="@+id/tl_hotlocation"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"></TableLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_manual_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lv_city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bt_location"
+            android:layout_below="@+id/rl_search"
+            android:layout_marginBottom="6dp"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:visibility="gone"></ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

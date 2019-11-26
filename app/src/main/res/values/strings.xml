@@ -1,0 +1,567 @@
+<resources>
+    <string name="app_name">Cloud Room</string>
+
+    <string name="dict">dict</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Error message-->
+    <string name="error_password_wrong">Password wrong</string>
+    <string name="error_already_authed">You have already logged in</string>
+    <string name="error_need_auth">Need Auth</string>
+    <string name="error_no_the_loop">This device is not available</string>
+    <string name="error_wrong_operation">Wrong operation</string>
+    <string name="error_loop_exited">This device has already been referenced</string>
+    <string name="error_operation_failed">Operation failed</string>
+    <string name="error_request_timeout">Time out</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="error_invalid_param">Invalid param</string>
+    <string name="error_no_mcc_card">NO MCC Card</string>
+    <string name="error_loop_has_been_ref">This device has already been referenced</string>
+    <string name="error_reach_limit">Reach max support client</string>
+    <string name="error_room_not_add_this_device">The room did not add this kind of device</string>
+    <string name="error_zone_abnormal">Zone abnormal</string>
+    <string name="error_wrong_password">Password wrong</string>
+    <string name="error_can_not_find_scenario">Can not find this scenario</string>
+    <string name="error_upgrade_unknown_error">Upgrade, unknown error</string>
+    <string name="error_upgrade_file_error">Upgrade, file error</string>
+    <string name="error_upgrade_flash_error">Upgrade, flash error</string>
+    <string name="error_upgrade_hardware_error">Upgrade, hardware error</string>
+    <string name="error_upgrade_no_new_version">This is already the latest version</string>
+    <string name="error_upgrade_doing">Upgrading</string>
+    <string name="error_upgrade_done_reboot">Upgraded and restart</string>
+    <string name="error_ipc_reach_max_support">Reach max support client</string>
+    <string name="error_ipc_play_error">Play error</string>
+    <string name="error_room_no_this_type_device">This room does not have this kind of device</string>
+    <string name="error_time_out">Please check your network</string>
+    <string name="error_offline">Device offline</string>
+
+    <string name="error_get_forest">Get forest Error</string>
+    <string name="error_get_cube_weather">Get Cube Weather Error</string>
+
+    <string name="error_invalid_message_formart">Invalid Message Format</string>
+    <string name="error_invalid_language">Invalid Language</string>
+    <string name="error_invalid_phone_number">Invalid Phone Number</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="error_vcode_too_frequent">Request Vcode Too Frequent</string>
+    <string name="error_vcode_failed">Request Vcode Failed</string>
+    <string name="error_invalid_name">Invalid Name</string>
+    <string name="error_invalid_pwd">Invalid Password</string>
+    <string name="error_phone_registered">Phone Number Has Been Registed</string>
+    <string name="error_invalid_phone_vcode">Invalid Phone Vcode</string>
+    <string name="error_email_registered">Email has been registed</string>
+    <string name="error_invali_email_vcode">Invalid Email Vcode</string>
+    <string name="error_login_failed">Login Failed</string>
+    <string name="error_invali_phone_uuid">Invalid Phone Uuid</string>
+    <string name="error_invali_phone_type">Invalid Phone Type</string>
+    <string name="error_invali_push_vendor">Invalid PUSH Vendor</string>
+    <string name="error_invali_push_id">Invalid PUSH ID</string>
+    <string name="error_invali_pwd_wrong">Password Wrong</string>
+    <string name="error_bind_pwd_error">Password Wrong</string>
+    <string name="error_can_not_bind">Device already bind by other user.</string>
+
+    <!--Alarm message-->
+    <string name="alarm_unknown">Unknown error</string>
+    <string name="alarm_medicalaid">Medical emergency</string>
+    <string name="alarm_emergency">Emergency</string>
+    <string name="alarm_fire">Fire alarm</string>
+    <string name="alarm_panic">Duress</string>
+    <string name="alarm_code_intrusion">Thief Alarm</string>
+    <string name="alarm_code_temper">Tamper Alarm</string>
+    <string name="alarm_code_pwdwrong">Password wrong</string>
+    <string name="alarm_code_lowbattery">Low battery</string>
+    <string name="alarm_code_dooropen">The door is open</string>
+    <string name="alarm_code_zonetrouble">Zone Fault</string>
+    <string name="alarm_code_gas">Gas leak</string>
+    <string name="alarm_code_pm2p5">PM 2.5 exceed</string>
+
+    <string name="zone_alarm_fire">Fire alarm</string>
+    <string name="zone_alarm_help">Help</string>
+    <string name="zone_alarm_gas">Gas leak</string>
+    <string name="zone_alarm_thief">Thief</string>
+    <string name="zone_alarm_emergency">Emergency</string>
+
+
+    <!-- Websocket close msg-->
+    <string name="websocket_close_normal">Normal exit</string>
+    <string name="websocket_close_cannot_connect">Connect failed</string>
+    <string name="websocket_close_connect_lost">Lost connection</string>
+    <string name="websocket_close_protocol_error">Protocal error</string>
+    <string name="websocket_close_internal_error">Inner error</string>
+    <string name="websocket_close_server_error">Server error</string>
+    <string name="websocket_close_reconnect">Re-connect</string>
+    <string name="websockt_response_timeout">Time out</string>
+
+    <!-- notification-->
+    <string name="notification">Notification</string>
+    <string name="responce_success">Operation success</string>
+    <string name="responce_failed">Operation failed</string>
+
+    <!-- H157925 Slide menu-->
+    <string name="slide_menu_login_name">Not Logged in</string>
+    <string name="slide_menu_nav_rules">Rules</string>
+    <string name="slide_menu_nav_schedules">Schedules</string>
+    <string name="slide_menu_nav_settings">Settings</string>
+
+    <!-- H157925 main tabbar-->
+    <string name="main_tabbar_text_home">Home</string>
+    <string name="main_tabbar_text_scenario">Scenario</string>
+    <string name="main_tabbar_text_device">Device</string>
+    <string name="main_tabbar_text_room">Room</string>
+
+    <!-- main title-->
+    <string name="main_header_text_home">Outdoor</string>
+    <string name="main_header_text_scenario">Scenario</string>
+    <string name="main_header_text_device">Device</string>
+    <string name="main_header_text_room">Room</string>
+
+    <!-- H157925 scenario tab-->
+    <string name="scenario_home">Home</string>
+    <string name="scenario_away">Away</string>
+    <string name="scenario_arm">Arm All</string>
+    <string name="scenario_disarm">Disarm All</string>
+    <string name="scenario_add_not_empty">Please add devices ana zones.</string>
+
+    <!-- H157925 Login-->
+    <string name="login_title">Login</string>
+    <string name="logout_title">Log Out</string>
+    <!--menu-->
+    <string name="menu_rule">Rule</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_module">Module</string>
+    <string name="menu_device">Device</string>
+    <string name="menu_about">About</string>
+
+    <string name="scenario_tip">current scenario:</string>
+
+    <string name="device_type_light">Light</string>
+    <string name="device_type_curtain">Curtain</string>
+    <string name="device_type_relay">Relay</string>
+    <string name="device_type_zone">Zone</string>
+    <string name="device_type_ip_camera">IP Camera</string>
+    <string name="device_type_air_conditioner">Temperature Control</string>
+    <string name="device_type_backaudio">Music</string>
+    <string name="device_type_purifier">Purifier</string>
+    <string name="device_type_ir_stb">STB</string>
+    <string name="device_type_ir_customize">Customize</string>
+    <string name="device_type_ir_ac">Air Conditioner</string>
+    <string name="device_type_ir_television">TV</string>
+    <string name="device_type_ir_dvd">DVD</string>
+    <string name="device_type_ventilation">Ventilation</string>
+    <string name="device_type_call_elevator">Ventilation</string>
+
+
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password_tip">&#062;&#061;5 Characters</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="no_account">No account?</string>
+    <string name="create_account">Create</string>
+    <string name="user_login">User Login</string>
+    <string name="guest_login">Guest Login</string>
+    <string name="offline">offline</string>
+
+    <string name="logout_tip">Sure logout?</string>
+    <string name="title_activity_cube_basic">CubeBasicActivity</string>
+
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="complete">Complete</string>
+
+    <string name="edit_scenario">Edit Scenario</string>
+    <string name="edit_scenario_name">Scenario name</string>
+    <string name="edit_scenario_select_icon">Select a scenario icon</string>
+    <string name="edit_scenario_setting">Setting</string>
+    <string name="edit_scenario_device">Device</string>
+    <string name="edit_scenario_zone">Zone</string>
+    <string name="edit_scenario_use_zone">Enable Zone</string>
+    <string name="edit_scenario_select_device">Select Devices</string>
+    <string name="edit_scenario_name_hint">&#060;&#061;20charachers</string>
+    <string name="edit_scenario_all">All</string>
+
+
+    <string name="register_title">register</string>
+    <string name="country">country</string>
+    <string name="chinese_countrCode">china +86</string>
+
+    <string name="telephone_title">telephone_title</string>
+    <string name="telephone_num">telephone_num</string>
+    <string name="next_step">next</string>
+    <string name="dialog_title">Confirm the phone number</string>
+    <string name="dialog_content">A verification code will be sent to this number:</string>
+    <string name="dialog_content_phone">153XXXX0000</string>
+
+    <string name="select_country_title">Select Country</string>
+
+    <string name="validate">validate</string>
+    <string name="validate_code">validate code</string>
+    <string name="retry">retry</string>
+    <string name="forgot_title">Forgot Password?</string>
+
+
+    <string name="room_master_bedroom">Master Bedroom</string>
+    <string name="room_second_bedroom">Second Bedroom</string>
+    <string name="room_guest_bedroom">Guest Bedroom</string>
+    <string name="room_master_bathroom">Master Bathroom</string>
+    <string name="room_second_bathroom">Second Bathroom</string>
+    <string name="room_dining_room">Dining Room</string>
+    <string name="room_kitchen">Kitchen</string>
+    <string name="room_living_room">Living Room</string>
+    <string name="room_name_tip">Room name</string>
+    <string name="room_icon_select">Choose a room</string>
+
+    <string name="name">Name</string>
+    <string name="room">Room</string>
+    <string name="more_info">More information</string>
+    <string name="configure">Configuration</string>
+
+    <string name="operation_success_tip">Operation success</string>
+    <string name="operation_failed_tip">Operation failed</string>
+    <string name="scenario_need_name_tip">Please input the scenario name.</string>
+    <string name="scenario_need_device_zone_tip">Please add devices ana zones</string>
+
+    <string name="room_need_name_tip">Please input room name.</string>
+    <string name="cube_property_net">Community network</string>
+    <string name="device_id_tip">Valid(1-255)</string>
+    <string name="account_unlogin">UnLogin</string>
+
+    <string name="property_ip">IP address</string>
+    <string name="property_subnet_mask">Subnet mask</string>
+    <string name="property_port">Gateway</string>
+    <string name="account_cube">About CUBE</string>
+
+    <!--account setting-->
+    <string name="account_setting_title">Account Setting</string>
+    <string name="cube_setting_title">CUBE setting</string>
+    <string name="cube_info">About CUBE</string>
+    <string name="cube_setting_name">Set aliase name</string>
+    <string name="cube_change_log_pwd">Change Login Password</string>
+    <string name="cube_change_safety_pwd">Change Security Password</string>
+    <string name="cube_setting_city">Set Location</string>
+    <string name="cube_backup_history">Back up history</string>
+    <string name="cube_exchange">Change CUBE</string>
+    <string name="link_cubee">Connect</string>
+    <string name="property_net_ip">IP address</string>
+    <string name="property_net_mac">MAC</string>
+    <string name="property_net_gw">Gateway</string>
+
+    <!-- Account setting-->
+    <string name="account_setting_phone">Phone</string>
+    <string name="account_setting_set_alias_name">Set aliase name</string>
+    <string name="account_setting_change_password">Change password</string>
+    <string name="account_setting_change_cube">Change Cube</string>
+    <string name="account_setting_cube_setting">Cube Setting</string>
+
+    <!-- cube setting -->
+    <string name="cube_setting_portrait">Portrait</string>
+    <string name="cube_setting_about_cube">About CUBE</string>
+    <string name="cube_setting_set_alias_name">Set aliase name</string>
+    <string name="cube_setting_change_login_password">Change login password</string>
+    <string name="cube_setting_change_security_password">Change Security password</string>
+    <string name="cube_setting_ethernet">Community network</string>
+    <string name="cube_setting_voice_control">Voice control</string>
+    <string name="cube_setting_replace_cube">Replace Cube</string>
+    <string name="cube_setting_replace_cube_success">Replace Cube Success</string>
+    <string name="cube_setting_set_location">Set location</string>
+    <string name="cube_setting_upgrade">Upgrade</string>
+    <string name="cube_setting_backup">Backup</string>
+    <string name="cube_setting_restore">Restore</string>
+
+
+    <string name="please_confirm_upgrade_cube">Do you want to upgrade?</string>
+    <string name="no_new_version">This is already the latest version</string>
+    <string name="backup_in_progress">Backuping</string>
+    <string name="backup_success">Backup success</string>
+    <string name="backup_failed">Backup failed</string>
+    <string name="restoring_backup">Restoring backup. CUBE will restart later.</string>
+    <string name="restore_backup_success">Restoring backup success</string>
+    <string name="restore_backup_failed">Restoring backup failed</string>
+    <string name="restoring_relogin">Device restarting，need to relogin</string>
+
+
+    <string name="cube_version">Version</string>
+    <string name="cube_ip">IP address</string>
+    <string name="cube_mac">MAC address</string>
+    <string name="cube_hns_mac">HNS server IP address</string>
+
+    <!-- H57925 Menu device add-->
+    <string name="menu_device_add_device_scan">Scan Device QR Code</string>
+    <string name="menu_device_add_spark_lighting">Spark Lighting</string>
+    <string name="menu_device_add_wifi_ir">WIFI IR</string>
+    <string name="menu_device_add_wifi_relay">WIFI Relay</string>
+    <string name="menu_device_add_wired_zone">Wired Zone</string>
+    <string name="menu_device_add_bacnet_ac">Bacnet AC</string>
+    <string name="menu_device_add_ip_camera">IP Camera</string>
+    <string name="menu_device_add_ipvdp_zone">IPVDP Zone</string>
+    <string name="menu_device_add_backaudio">Music</string>
+    <string name="menu_device_add_485_device">485 Device</string>
+    <string name="menu_device_add_ventilation">Air Purifier</string>
+    <string name="menu_device_add_315_433">RF Module</string>
+    <string name="menu_module_add_ipvdp_extension">Subphone</string>
+
+    <string name="menu_device_edit_add">+</string>
+    <string name="main_loop">Loop</string>
+    <string name="main_relay">Relay</string>
+    <string name="main_zone">Zone</string>
+    <string name="main_back_audio">Music</string>
+    <string name="main_air_conditioner">Air Conditioner</string>
+    <string name="main_485_device">485</string>
+
+    <string name="device_add_should_select_device">Please add at least one loop to CUBE</string>
+    <string name="device_id">Device ID</string>
+    <string name="using">Enable</string>
+    <string name="module_spark_lighting">Spark Lighting</string>
+    <string name="module_wifi_relay">Relay Module</string>
+    <string name="module_wired_zone">Zone Module</string>
+    <string name="module_bacnet">Bacnet Module</string>
+    <string name="module_ipvdp">IPVDP</string>
+    <string name="module_backaudio">Music</string>
+    <string name="module_wifi485">485</string>
+    <string name="delay">Delay</string>
+    <string name="delay_time">Delay time</string>
+    <string name="alarm_type">Alarm type</string>
+    <string name="zone">Zone</string>
+    <string name="loop_id">Loop ID</string>
+    <string name="loop_type">Loop type</string>
+    <string name="brand_name">Brand name</string>
+    <string name="port">Port</string>
+    <string name="sub_ip_addr">Slave address</string>
+    <string name="ip_addr">IP Address</string>
+    <string name="type">Type</string>
+    <string name="ip_addr_hint">org 192.168.1.1</string>
+    <string name="ipc_username_hint">IP Camera username</string>
+    <string name="ipc_password_hint">IP Camera password</string>
+    <string name="loop_id_hint">Valid(1-255)</string>
+    <string name="sub_ip_id">Mask ID</string>
+    <string name="bacnet_type">Bacnet Type</string>
+    <string name="cube_bacnet_id">CUBE Bacnet ID</string>
+    <string name="bacnet_device_id">Bacnet error_zone_abnormal</string>
+    <string name="hns_service_ip">HNS IP</string>
+    <string name="device_need_module">Please select one module</string>
+
+    <string name="device_aircondition">Aircondition</string>
+    <string name="device_thermostat">Thermostat</string>
+    <string name="device_ventilation">Air Purifier</string>
+
+    <string name="device_ecc_o1">ECC O1</string>
+    <string name="device_htc961d3200">HTC961</string>
+    <string name="device_ecc_dt300">ECC DT300</string>
+    <string name="device_simens_rdf302">Simens RDF302</string>
+    <string name="device_dakin_dta116a621">Dakin DTA</string>
+    <string name="device_dakin_r4r5">Dakin R4R5</string>
+    <string name="device_4in1">4 IN 1</string>
+
+    <string name="device_dakin">Dakin</string>
+    <string name="device_sanling">Sanling</string>
+
+    <string name="device_ipc_phoenix">Phoenix</string>
+    <string name="device_ipc_super_hd">Super HD</string>
+
+    <!-- H157925 Module part-->
+    <string name="module_add_discover">Easy connection</string>
+    <string name="module_add_sparklighting">Spark Lighting Module</string>
+    <string name="module_add_bacnet">Bacnet Module</string>
+    <string name="module_add_ipvdp">IPVDP</string>
+
+
+    <!-- h157925 Rule part-->
+    <string name="rule_default_title">New Rule</string>
+    <string name="rule_repeat_type_never">Never</string>
+    <string name="rule_repeat_type_Monday">Monday</string>
+    <string name="rule_repeat_type_Tuesday">Tuesday</string>
+    <string name="rule_repeat_type_Wednesday">Wednesday</string>
+    <string name="rule_repeat_type_Thursday">Thursday</string>
+    <string name="rule_repeat_type_Friday">Friday</string>
+    <string name="rule_repeat_type_Saturday">Saturday</string>
+    <string name="rule_repeat_type_Sunday">Sunday</string>
+    <string name="rule_repeat_type_workday">Weekdays</string>
+    <string name="rule_repeat_type_weekend">Weekends</string>
+    <string name="rule_repeat_type_everyday">Everyday</string>
+
+
+    <string name="rule_room_type_AirQ">Air Quality</string>
+    <string name="rule_room_type_temperature">Temperature</string>
+    <string name="rule_room_type_humidity">Humidity</string>
+    <string name="rule_room_type_PM">PM2.5</string>
+
+    <string name="rule_roomAQ_value_clean">Clean</string>
+    <string name="rule_roomAQ_value_slight">Slight</string>
+    <string name="rule_roomAQ_value_moderate">Moderate</string>
+    <string name="rule_roomAQ_value_serious">Serious</string>
+
+    <string name="rule_room_trigger_high">Over than</string>
+    <string name="rule_room_trigger_low">Lower than</string>
+
+    <string name="dialog_update_title">Update</string>
+    <string name="dialog_update_msg">Find new version :</string>
+    <string name="dialog_update_msg2">If update now?</string>
+    <string name="dialog_update_btnupdate">Update</string>
+    <string name="dialog_update_btnnext">Next Time.</string>
+    <string name="dialog_downloading_msg">Downloading...</string>
+    <string name="dialog_alert_title">Warning</string>
+    <string name="dialog_downfailed_btndown">Re-download</string>
+    <string name="dialog_downfailed_btnnext">Next time.</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_downfailed_msg">Download failed，try again？</string>
+    <string name="no_net">Network failed</string>
+    <string name="is_latest_version">This is the latest version.</string>
+
+    <string name="lobby">DOORCAMERABACK</string>
+    <string name="incomingcall">Incoming Call...</string>
+    <string name="end">End</string>
+    <string name="ipc_loading_tip">loading...</string>
+
+    <string name="wireless_infrared">WIFI IR</string>
+    <string name="clear">Clear</string>
+    <string name="select_one_item">Please select at least one item</string>
+    <string name="study_one_item">Please learn at least one item</string>
+    <string name="select_button">Select Keys</string>
+    <string name="code_mode">Pairing Mode</string>
+    <string name="mode_name">Mode Name</string>
+    <string name="temperature">Temperature</string>
+    <string name="mode">Mode</string>
+    <string name="learn">Pair this mode</string>
+    <string name="ir_operation_tip">Please select arrow.</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="click">Tap</string>
+    <string name="device_add_tip">This device has already been added</string>
+    <string name="rule_edit">Edit Rule</string>
+    <string name="rule_create">Create A Rule</string>
+    <string name="schedule_edit">Edit Schedule</string>
+    <string name="schedule_create">Create Schedule</string>
+    <string name="task">Action</string>
+    <string name="repeat">Repeat</string>
+    <string name="select_device">Select Device</string>
+    <string name="select_scenario">Select Scenario</string>
+    <string name="select_zone">Select zone</string>
+    <string name="set_status">Set Value</string>
+    <string name="rule_name">Rule name</string>
+    <string name="work_time">Work time</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="step_one_tip">Step 1: Choose a trigger input</string>
+    <string name="step_two_tip">Step 2: Choose an action</string>
+    <string name="condition">Condition</string>
+    <string name="room_step_1">Step 1: Choose a room</string>
+    <string name="room_step_2">Step 2: Choose a room condition type</string>
+    <string name="room_step_3">Step 3: Choose a trigger condition</string>
+    <string name="room_step_4">Step 4: Choose a trigger value</string>
+    <string name="value">Value</string>
+    <string name="room_environment">Room Condition</string>
+    <string name="select_all">All</string>
+    <string name="sure">OK</string>
+    <string name="wind_speed">Fan speed</string>
+    <string name="select_one_task">Please select one action</string>
+    <string name="illegal_input_string">Invalid input:Valid(1-20)</string>
+    <string name="set_air_conditioner">Set up Air Conditioner</string>
+    <string name="set_input">Please choose a trigger input</string>
+    <string name="input_custom_name">Please input a name</string>
+    <string name="input_name">Please input the Alias name</string>
+    <string name="define_gesture">Please tap the arrow to define the screen touch gesture</string>
+    <string name="touch_tip">Swipe the screen as the arrow control. Tap to confirm.</string>
+    <string name="double_click_exit">Click again for exiting.</string>
+    <string name="alarm">Alarmed</string>
+    <string name="version_number">App Version:</string>
+    <string name="copyright">©2016 Honeywell International Inc. All rights reserved.</string>
+    <string name="welcome_tip">Welcome For Cloud Home.</string>
+    <string name="exist_name">The name is exited.</string>
+    <string name="no_study">The remote has not been paired</string>
+    <string name="sensor_type">Sensor Type</string>
+    <string name="sensor_id">Sensor ID</string>
+    <string name="zone_module">Zone Module</string>
+    <string name="zone_type">Sensor Type</string>
+    <string name="maia_type">MAIA Type</string>
+    <string name="maia_id">MAIA ID</string>
+    <string name="maia_module">MAIA Module</string>
+    <string name="power">Power</string>
+    <string name="loop">Circulation</string>
+    <string name="on_off">On/Off</string>
+    <string name="inside_outside">Inner/Outer</string>
+    <string name="high">High</string>
+    <string name="middle">Middle</string>
+    <string name="low">Low</string>
+    <string name="humidity">Humidify</string>
+    <string name="dehumidity">Dehumidifying</string>
+    <string name="inside_loop">Inner Circulation</string>
+    <string name="outside_loop">Outer Circulation</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <string name="swipe_to_refresh">Pull down to refresh</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="refresh_complete">Refresh success</string>
+    <string name="release_to_loadmore">Release to load more</string>
+    <string name="swipe_to_loadmore">Top row to load</string>
+    <string name="loading">Loading more...</string>
+    <string name="load_complete">Loading success</string>
+    <string name="current_temperature">Current temperature</string>
+    <!-- H157925 AC-->
+    <string name="ac_mode_cool">Cooling</string>
+    <string name="ac_mode_heat">Heating</string>
+    <string name="ac_mode_venlitation">Ventilation</string>
+    <string name="ac_mode_dehumidify">Dehumidifying</string>
+    <string name="ac_mode_auto">Auto</string>
+    <string name="link_device_password_hint">5 charachers</string>
+
+    <string name="sensor_type_infrade">Infrared</string>
+    <string name="sensor_type_keyfob">Magnetic</string>
+    <string name="sensor_type_door">Keyfob</string>
+
+    <string name="zone_type_instance">Instant</string>
+    <string name="zone_type_delay">Delay</string>
+    <string name="zone_type_24">24 Hours</string>
+
+    <string name="ventilation_humidity">Humidify</string>
+    <string name="ventilation_dehumidity">Dehumidifying</string>
+
+    <!-- H157925 Home room-->
+    <string name="home_room_detail_co2">Carbon Dioxide</string>
+    <string name="home_room_detail_pm2_5">PM2.5</string>
+    <string name="home_room_detail_humidity">Humidity</string>
+    <string name="home_room_detail_temperature">Temperature</string>
+
+    <!-- H157925 呼叫类型-->
+    <string name="pop_phonecall_frontdoor">Front Door</string>
+    <string name="pop_phonecall_guard">Guard</string>
+    <string name="pop_phonecall_lobby">Gate</string>
+    <string name="pop_phonecall_office">Office</string>
+    <string name="pop_phonecall_reardoor">Rear Door</string>
+    <string name="pop_phonecall_subphone">Subphone</string>
+
+    <string name="input_password">Please input password</string>
+    <string name="main_connect">Connect</string>
+
+    <string name="illegal_number">Illegal Number</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="take_picture">Take Pictures</string>
+    <string name="text_hint_6c">At least 6 character</string>
+    <string name="ip_not_null">IP address can not be empty</string>
+    <string name="hns_ip_not_null">HNS IP can not be empty</string>
+    <string name="name_not_null">Name can not be empty</string>
+    <string name="bacnet_type_not_null">Bacnet type can not be empty</string>
+    <string name="bacnet_id_illegal">Invalid CUBE Bacnet ID</string>
+    <string name="bacnet_device_id_illegal">Invalid Bacnet device ID</string>
+    <string name="sub_id_illegal">Invalid sub net ID</string>
+    <string name="air_conditioner">Temperature Control</string>
+    <string name="sure_restore_to_latest">Are you sure to restore to the latest version ？</string>
+    <string name="location_failure">seek failed</string>
+    <string name="old_pwd">Old Password</string>
+    <string name="new_pwd">New Password</string>
+    <string name="input_city_name">Please input your city name.</string>
+    <string name="hot_city">Hot City</string>
+    <string name="gps_location">GPS seeking...</string>
+    <string name="id">ID</string>
+    <string name="select_city_anually">Anually select city</string>
+    <string name="your_city">Your city:</string>
+    <string name="no_matched_city">No matched city</string>
+    <string name="sure_device_nearby">Please make sure that the device is nearby</string>
+    <string name="net_connect">Net connect</string>
+    <string name="wifi">WIFI</string>
+    <string name="backup_description">Backup Description</string>
+</resources>

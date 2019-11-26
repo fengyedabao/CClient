@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/thumb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_rule_height"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/cb_switch"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:text="0:00:00-24:00:00 周一,周二,周三,周四,周五"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_schedule"
+            android:layout_toLeftOf="@+id/cb_switch">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_device"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/circle_background"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/rules_sensor" />
+
+                <TextView
+                    android:id="@+id/tv_device"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:text="Vdp8防区"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_scenario"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/circle_background"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/rules_room" />
+
+                <TextView
+                    android:id="@+id/tv_scenario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:maxLines="2"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:text="Vdp8防区"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll_center"
+            android:layout_toLeftOf="@+id/cb_switch"
+            android:singleLine="true"
+            android:text="Ipvdp防区联动场景"
+            android:textColor="@color/text_color_secondary"
+            android:textSize="18sp" />
+
+
+        <CheckBox
+            android:id="@+id/cb_switch"
+            style="@style/checkbox_switch_style" />
+
+
+    </RelativeLayout>
+</FrameLayout>
+

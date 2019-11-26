@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        style="@style/device_detail_icon_style" />
+
+    <ImageView
+        android:id="@+id/iv_disable"
+        style="@style/device_detail_icon_disable_style"
+        android:layout_alignBottom="@+id/iv_icon"
+        android:layout_alignRight="@+id/iv_icon" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        style="@style/list_item_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_toLeftOf="@+id/slide_switch"
+        android:layout_toRightOf="@+id/iv_icon" />
+
+    <CheckBox
+        android:id="@+id/slide_switch"
+        style="@style/checkbox_switch_style" />
+    <!--<Switch-->
+    <!--android:id="@+id/slide_switch"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:layout_marginRight="10dp" />-->
+    <!--<com.honeywell.lib.widgets.SlideSwitch-->
+    <!--android:id="@+id/slide_switch"-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--app:isOpen="true"-->
+    <!--app:shape="circle"-->
+    <!--app:themeColor="#1772D8" />-->
+</RelativeLayout>
+
+

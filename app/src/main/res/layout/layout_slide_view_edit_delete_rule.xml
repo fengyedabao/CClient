@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/view_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" />
+
+    <RelativeLayout
+        android:id="@+id/holder"
+        android:layout_width="@dimen/section_rule_width"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="@dimen/item_rule_height"
+            android:layout_height="@dimen/item_rule_height"
+            android:background="@color/cell_edit_background"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/cell_edit" />
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="@dimen/item_rule_height"
+            android:layout_height="@dimen/item_rule_height"
+            android:layout_toRightOf="@+id/iv_edit"
+            android:background="@color/cell_delete_background"
+            android:padding="30dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/cell_delete" />
+
+    </RelativeLayout>
+
+</merge>
